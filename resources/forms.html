@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="frmForms" method="post" action="../config/dbConfig101.php">
+
+    <p class="search_input">
+        <input type="text" placeholder="Enter SKU Or product Name" name="drn"/>
+        <select name="outlet">
+            <option>All</option>
+            <!--<?php do { ?>
+            <option><?php echo $row_profiles['Profile']; ?></option>
+            <?php } while ($row_profiles = mysql_fetch_assoc($profiles)); ?> --->
+        </select>
+        <input type="text" placeholder="Select begin date" name=""  value="" class=""/>
+        <input type="text" placeholder="After Date"  name=""  value="" class=""/>
+
+        <input type="submit" name="go" value="Search" >
+    </p>
+
+</form>
+
+
+</body>
+</html>
