@@ -6,10 +6,10 @@
  * Time: 12:26 PM
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "733securex";
-$dbname = "vReporting101";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
